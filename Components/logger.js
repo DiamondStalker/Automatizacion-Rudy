@@ -14,7 +14,7 @@ console.log = function (d) {
     var log_message = timestamp + ' - ' + util.format(d) + '\n';
 
     log_file.write(log_message);
-    //log_stdout.write(log_message);
+    log_stdout.write(log_message);
 
 };
 

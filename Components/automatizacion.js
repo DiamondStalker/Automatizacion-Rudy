@@ -61,12 +61,29 @@ const Auto = {
 
                 await page.waitForTimeout(250);
 
-                await page.fill('[id="text-message"]', elem.Mensaje);
+                await page.fill('[id="text-message"]', elem.Mensaje.toString().trim());
                 await page.waitForTimeout(250);
+
 
                 //await page.click('[role="listitem"]:nth-child(2) > div');
 
-                // Stop progressBar
+                //Whatsapp
+
+                await page.click('[id="whatsapp-tab"]');
+                await page.waitForTimeout(250);
+
+                await page.click('[class="flex items-center h-10 py-2 text-sm border-t"] a');
+                await page.waitForTimeout(1000);
+
+                await page.fill('[aria-labelledby="vs4__combobox"]', elem["Template What"].toString().trim());
+                await page.waitForTimeout(500);
+
+                await page.keyboard.press('Enter');
+
+                //await page.click('#contact-details > div > div.hl_contact-details-center > div.modal.fade.hl_sms-template--modal.show > div > div > div.modal-footer > div > button.hl-btn.inline-flex.items-center.px-4.py-2.border.border-transparent.text-sm.font-medium.rounded.shadow-sm.text-white.bg-apple-500.hover\:bg-apple-600.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.focus\:ring-apple-500');
+                await page.waitForTimeout(250);
+
+
                 progressBar.increment();
             }
             progressBar.stop();
