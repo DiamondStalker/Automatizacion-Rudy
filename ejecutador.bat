@@ -7,6 +7,7 @@ if %errorlevel% equ 0 (
     if not exist "node_modules" (
         echo Carpeta node_modules no encontrada. Ejecutando npm install...
         npm install
+	npm run start
     ) else (
         echo Carpeta node_modules encontrada. Ejecutando npm run start...
         npm run start
