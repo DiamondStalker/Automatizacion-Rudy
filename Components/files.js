@@ -33,6 +33,14 @@ const File = {
     async crearJson(informacion){
         await fs.writeFile(`./Read/Conversion.json`,JSON.stringify(informacion,null,2))
     },
+
+    /**
+     * 
+     * @param {JSON} informacion Lista de los telefonos con error
+     */
+    async listaErrores(informacion){
+        await fs.writeFile(`./Read/Errores.json`,JSON.stringify(informacion,null,2))
+    },
     
     /**
      * @param {String} File

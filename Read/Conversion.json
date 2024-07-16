@@ -1,37 +1,12 @@
 [
   {
+    "Telefono": 13212725417,
+    "Template What": "  lp_uno",
+    "Mensaje": "Hola {{contact.first_name}}, no hemos podido entablar comunicación contigo. Lo que tenemos para decirte es algo supremamente beneficioso para tu compañia, dime cuando puedo llamarte, estaré esperando tu mensaje."
+  },
+  {
     "Telefono": 18015749359,
-    "Template What": "  1dbeforeclosingbookingreminder",
-    "Mensaje": "Esto es un mensaje de prueba"
-  },
-  {
-    "Telefono": 13185737090,
-    "Template What": "  callback_aun_estas_buscando_mas_oportunidades_en_",
-    "Mensaje": "Esto es un mensaje de prueba #2"
-  },
-  {
-    "Telefono": 1,
-    "Template What": "  callback_avisame_si_puede_hablar_hoy",
-    "Mensaje": 1
-  },
-  {
-    "Telefono": 2,
-    "Template What": "  callback_continuas_buscando_mas_trabajos_",
-    "Mensaje": 2
-  },
-  {
-    "Telefono": 3,
-    "Template What": "  callback_continuas_buscando_mas_trabajos_",
-    "Mensaje": 3
-  },
-  {
-    "Telefono": 4,
-    "Template What": "  callback_buenas_noticias_hemos_finalizado_la_revision",
-    "Mensaje": 4
-  },
-  {
-    "Telefono": 5,
-    "Template What": "  video_teste_plantilla_x",
-    "Mensaje": 5
+    "Template What": "  lp_uno",
+    "Mensaje": "Hola {{contact.first_name}}, no hemos podido entablar comunicación contigo. Lo que tenemos para decirte es algo supremamente beneficioso para tu compañia, dime cuando puedo llamarte, estaré esperando tu mensaje."
   }
 ]
